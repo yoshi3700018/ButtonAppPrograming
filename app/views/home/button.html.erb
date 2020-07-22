@@ -1,0 +1,51 @@
+<html>
+  <body>
+    <div>あ</div>
+    <div>あ</div>
+ 
+  
+  
+
+ 
+ <p class="target1">
+    <a class="text" target="_blank"><ruby>角括弧（大括弧）<rt>かくかっこ（だいかっこ）</rt></ruby></a>
+  </p>
+  <button class="button-3"><code>［&emsp;］</code></button>
+ <p class="target2">
+    <%# <a class="text" target="_blank"><ruby>角括弧（大括弧）<rt>かくかっこ（だいかっこ）</rt></ruby></a> %>
+  </p>
+  <button class="button-4"><code>！</code></button>
+ <p class="target3">
+    <%# <a class="text" target="_blank"><ruby>角括弧（大括弧）<rt>かくかっこ（だいかっこ）</rt></ruby></a> %>
+  </p>
+  <button class="button-5"><code>columns</code></button>
+ <p class="target4">
+    <%# <a class="text" target="_blank"><ruby>角括弧（大括弧）<rt>かくかっこ（だいかっこ）</rt></ruby></a> %>
+  </p>
+  <button class="button-6"><code>href</code></button>
+ <p class="target5">
+    <%# <a class="text" target="_blank"><ruby>角括弧（大括弧）<rt>かくかっこ（だいかっこ）</rt></ruby></a> %>
+  </p>
+  <button class="button-7"><code>&</code></button>
+
+  <div class="pop-message1">ボタンを押すと読み方がわかるよ！</div>
+
+  <script>
+    'use strict';
+      var $target = document.querySelector('.target1, .target2')
+      var $button = document.querySelector('.button-3,.button-4')
+      $target.classList.toggle('is-hidden')
+      $button.addEventListener('click', function() {
+      $target.classList.toggle('is-hidden')
+      })
+  </script>
+  <%# <script>
+      var $target = document.querySelector('.target2')
+      var $button = document.querySelector('.button-4')
+      $target.classList.toggle('is-hidden')
+      $button.addEventListener('click', function() {
+      $target.classList.toggle('is-hidden')
+      })
+  </script> %>
+  </body>
+</html>

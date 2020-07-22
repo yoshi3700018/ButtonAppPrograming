@@ -1,0 +1,49 @@
+<html>
+<body>
+<div class="about-main">
+  <h2><span>Button</span>ApPrograming<span class="red">？</span></h2>
+  <p class="introduction">
+    ボタンを押せば、わからないプログラミング用語が読めるようになる、初心者向けのプログラミング学習アプリです！<br>
+    会員登録をすれば、フレンドをつくってコミュニケーションをとりながら学習を進められます！
+  </p>
+  <%# <div class="box">
+    <div class="box-child">
+      <label for="label1">Button</label>
+      <input type="checkbox" id="label1"/>
+      <div class="hidden_show">
+        <!--非表示ここから-->     
+          <p>答え</p>
+        <!--ここまで-->
+      </div>
+    
+    </div> %>
+      
+      
+  <%# </div> %>
+
+ 
+
+
+  <p class="target">
+    <a class="text" target="_blank">ここに答えが出てきます！</a>
+  </p>
+  
+  <button class="button-2">Button</button>
+
+  <script>
+    'use strict';
+    var $target = document.querySelector('.target')
+      var $button = document.querySelector('.button-2')
+      $target.classList.toggle('is-hidden')
+      $button.addEventListener('click', function() {
+      $target.classList.toggle('is-hidden')
+})
+
+  
+
+  </script>
+
+   <div class="pop-message">ボタンを押してみてね！</div>
+  
+</body>
+</html>

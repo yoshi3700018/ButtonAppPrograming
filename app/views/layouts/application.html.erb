@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ButtonApPrograming</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+    <%= favicon_link_tag('favicon.ico') %>
+
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <header>
+      <div class="header-logo">
+        <%= link_to("Button", "/") %>
+        
+      </div>
+      <div class="header-logo-2">
+        <%= link_to("ApProgaming", "/") %>
+      </div>
+      <ul class="header-menus">
+        <!-- 指定されたHTMLを貼り付け、ログイン中のユーザーのidを表示してください -->
+        <% if session[:user_id] %>
+          <li class="provisional">
+            こんにちは！橋本修之さん
+            <!-- コードを追加し、中のユーザーのidを表示してください -->
+            <% session[:user_id] %>
+          </li>
+          <li class="button">
+            <%= link_to("Button", "/button") %>
+          </li>
+        <li class="tweet">
+          <%= link_to("つぶやく", "/posts/new") %>
+        </li>
+        <li class="index">
+          <%= link_to("コミュニケーション", "/posts/index")%>
+        </li>
+        <li class="list">            
+          <%= link_to("フレンド", "/users/index") %>            
+        </li>
+        <li class="logout">
+          <%= link_to("ログアウト", "/logout", {method: :post}) %>
+        </li>
+      <% else %>
+        <li class="new">
+          <%= link_to("新規登録", "/signup") %>
+        </li>
+        <li class="login">
+          <%= link_to("ログイン", "/login") %>
+        </li>
+        <li class="menus-1">
+          <%= link_to("Button", "/about") %>
+        </li>
+        <li class="menus-2">
+          <%= link_to("ApProgaming", "/about") %>
+        </li>
+        <li class="menus-3">
+          <%= link_to("？", "/about") %>
+        </li>
+      <% end %>
+      </ul>
+    </header>
+    <% if flash[:notice] %>            
+      <div class="flash">            
+        <%= flash[:notice] %>            
+      </div>            
+    <% end %>
+    <%= yield %>
+  </body>
+</html>
