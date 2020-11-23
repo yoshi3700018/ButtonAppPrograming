@@ -4,7 +4,7 @@ ButtonApProgramingは、ボタンを押せばわからないプログラミン�
  
 # DEMO
  
-![demo](https://i.gyazo.com/6ee992c4c2302d73b892662dba39b45e.mp4)
+![demo](https://i.gyazo.com/6ee992c4c2302d73b892662dba39b45e/raw)
  
 # Features
  
