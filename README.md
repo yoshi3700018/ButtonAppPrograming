@@ -1,29 +1,57 @@
-# README
-
-# 個人アプリ　ButtonApPrograming
-- プログラミング初心者が躓きやすい、プログラミング用語が読めるようになるアプリを作成しました。
-- 制作期間：2020年7月22日ー8月31日
-
-# 製作者
-## 橋本　修之
-- トップページ
-- ヘッダー、フッター作成
-- アプリ説明、スタートページ
-- つぶやき、コミュニケーション、フレンド一覧ページ
-- DB設計
-- ReadMe編集
-- ユーザー登録、ログイン、マイページ作成
-
-# GEM
-- ruby '2.6.5'
-- rails, '~> 6.0.0'
-- mysql2, '>= 0.4.4'
-- puma, '~> 3.11'
-- sass-rails, '~> 5'
-- jbuilder, '~> 2.7'
-- pry-rails
-- haml-rails", ">= 1.0", '<= 2.0.1'
-- font-awesome-sass'
-- devise
-- carrierwave
-- fog-aws
+# ButtonApPrograming
+ 
+ButtonApProgramingは、ボタンを押せばわからないプログラミング用語が読めるようになる、初心者向けのプログラミング学習アプリです。
+ 
+# DEMO
+ 
+"hoge"の魅力が直感的に伝えわるデモ動画や図解を載せる
+ 
+# Features
+ 
+"hoge"のセールスポイントや差別化などを説明する
+ 
+# Requirement
+ 
+"hoge"を動かすのに必要なライブラリなどを列挙する
+ 
+* huga 3.5.2
+* hogehuga 1.0.2
+ 
+# Installation
+ 
+Requirementで列挙したライブラリなどのインストール方法を説明する
+ 
+```bash
+pip install huga_package
+```
+ 
+# Usage
+ 
+DEMOの実行方法など、"hoge"の基本的な使い方を説明する
+ 
+```bash
+git clone https://github.com/hoge/~
+cd examples
+python demo.py
+```
+ 
+# Note
+ 
+注意点などがあれば書く
+ 
+# Author
+ 
+作成情報を列挙する
+ 
+* 作成者
+* 所属
+* E-mail
+ 
+# License
+ライセンスを明示する
+ 
+"hoge" is under [MIT license](https://en.wikipedia.org/wiki/MIT_License).
+ 
+社内向けなら社外秘であることを明示してる
+ 
+"hoge" is Confidential.
