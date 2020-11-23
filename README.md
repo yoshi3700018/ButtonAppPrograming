@@ -5,9 +5,12 @@ ButtonApProgramingは、プログラミング初心者が学習していくに�
  
 # DEMO
  アニメーションを付けて、初心者が取っつきやすい、作りにしました。
+ こちらは、アプリケーションの説明ページです。
 ![demo](https://i.gyazo.com/6ee992c4c2302d73b892662dba39b45e/raw)
-
+こちらが、実際のアプリケーションです。
 ![demo](https://i.gyazo.com/1f9eff0277ca847625b7515ccbc5dd82/raw)
+登録すると、フレンド登録やつぶやきが可能となり、フレンドとコミュニケーションがとれます。
+![demo](https://i.gyazo.com/316f313465f3336d42bf0b981d5b3783/raw)
  
 # Features
  
