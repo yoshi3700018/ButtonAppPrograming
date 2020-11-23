@@ -6,6 +6,8 @@ ButtonApProgramingは、プログラミング初心者が学習していくに�
 # DEMO
  アニメーションを付けて、初心者が取っつきやすい、作りにしました。
 ![demo](https://i.gyazo.com/6ee992c4c2302d73b892662dba39b45e/raw)
+
+![demo](https://i.gyazo.com/1f9eff0277ca847625b7515ccbc5dd82/raw)
  
 # Features
  
